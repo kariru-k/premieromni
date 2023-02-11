@@ -1,4 +1,4 @@
-/* 
+/*
 
 TemplateMo - Finance Business
 
@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #a4c639;
+	background-color: darkgoldenrod;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -45,7 +45,7 @@ a.filled-button {
 }
 
 a.filled-button:hover {
-	background-color: #fff;
+	background-color: cyan;
 	color: #a4c639;
 }
 
@@ -80,7 +80,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #a4c639;
+	color: darkgoldenrod;
 }
 
 .section-heading span {
@@ -317,7 +317,7 @@ header .navbar {
 }
 .navbar .navbar-toggler {
 	border-color: #fff;
-	background-color: #fff;	
+	background-color: #fff;
 	height: 36px;
 	outline: none;
 	border-radius: 0px;
@@ -606,7 +606,7 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #a4c639;
+	color: darkgoldenrod;
 }
 
 .fun-facts p {
@@ -627,7 +627,7 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: #a4c639;
+    color: darkgoldenrod;
     font-weight: 700;
     font-size: 36px;
 }
@@ -706,7 +706,7 @@ ul.slick-dots {
 }
 .testimonial-item .inner-content {
 	text-align: center;
-	background-color: #fff;	
+	background-color: #fff;
 	padding: 30px;
 	border-radius: 5px;
 }
@@ -759,7 +759,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #a4c639;
+	background-color: darkcyan;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
