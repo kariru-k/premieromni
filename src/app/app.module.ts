@@ -19,6 +19,9 @@ import { LogoslidesComponent } from './logoslides/logoslides.component';
 import { InformationComponent } from './information/information.component';
 import { ServicesHeaderComponent } from './services-header/services-header.component';
 import { ServicesListComponent } from './services-list/services-list.component';
+import { ContactHeaderComponent } from './contact-header/contact-header.component';
+import { ContactInformationComponent } from './contact-information/contact-information.component';
+import { MapComponent } from './map/map.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { ServicesListComponent } from './services-list/services-list.component';
     LogoslidesComponent,
     InformationComponent,
     ServicesHeaderComponent,
-    ServicesListComponent
+    ServicesListComponent,
+    ContactHeaderComponent,
+    ContactInformationComponent,
+    MapComponent
   ],
   imports: [
     BrowserModule,
