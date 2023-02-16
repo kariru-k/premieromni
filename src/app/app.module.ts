@@ -16,6 +16,9 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { CallbackComponent } from './callback/callback.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoslidesComponent } from './logoslides/logoslides.component';
+import { InformationComponent } from './information/information.component';
+import { ServicesHeaderComponent } from './services-header/services-header.component';
+import { ServicesListComponent } from './services-list/services-list.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +35,10 @@ import { LogoslidesComponent } from './logoslides/logoslides.component';
     TestimonialsComponent,
     CallbackComponent,
     FooterComponent,
-    LogoslidesComponent
+    LogoslidesComponent,
+    InformationComponent,
+    ServicesHeaderComponent,
+    ServicesListComponent
   ],
   imports: [
     BrowserModule,

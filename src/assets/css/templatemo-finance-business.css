@@ -685,7 +685,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #a4c639;
+	color: darkgoldenrod;
 }
 
 .more-info .right-content p {
@@ -1140,13 +1140,19 @@ footer .contact-form button.filled-button:hover {
 	width: 100%;
 	padding: 30px 30px;
 	display: inline-block;
-	background-color: #a4c639;
+	background-color: indigo;
   	font-size: 20px;
-  	color: #121212;
+  	color: whitesmoke;
   	letter-spacing: 0.5px;
   	font-weight: 700;
   	transition: all 0.3s;
 }
+
+#tabs ul li a:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
 #tabs ul li a i {
 	float: right;
 	margin-top: 5px;
