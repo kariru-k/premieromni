@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: darkgoldenrod;
+	background-color: #00cfcc;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -80,7 +80,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: darkgoldenrod;
+	color: #00cfcc;
 }
 
 .section-heading span {
@@ -606,7 +606,7 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: darkgoldenrod;
+	color: #00cfcc;
 }
 
 .fun-facts p {
@@ -627,7 +627,7 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: darkgoldenrod;
+    color: #00cfcc;
     font-weight: 700;
     font-size: 36px;
 }
@@ -685,7 +685,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: darkgoldenrod;
+	color: #00cfcc;
 }
 
 .more-info .right-content p {
@@ -1207,7 +1207,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: darkgoldenrod;
+	color: #00cfcc;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
