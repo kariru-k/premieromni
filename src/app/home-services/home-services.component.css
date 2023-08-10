@@ -1,9 +1,14 @@
 .services {
-  margin-top: 140px;
+  margin-top: 60px;
+}
+
+.service-item {
+  margin: 10px;
 }
 
 .service-item img {
   width: 100%;
+  height: 370px;
   overflow: hidden;
 }
 

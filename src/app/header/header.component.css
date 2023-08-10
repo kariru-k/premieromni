@@ -10,7 +10,7 @@
 
 .sub-header ul.left-info li {
   border-left: 1px solid rgba(250,250,250,0.3);
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .sub-header ul.left-info li:last-child {
@@ -90,7 +90,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.current,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-  color: #00cfcc!important;
+  color: darkgoldenrod!important;
 }
 .navbar .navbar-brand {
   float: 	left;

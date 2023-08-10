@@ -1,0 +1,30 @@
+<div class="single-services" *ngFor="let product of products">
+  <div class="more-info about-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="more-info-content">
+            <div class="row">
+              <div class="col-md-6 align-top">
+                <div class="right-content">
+                  <h2><em>{{product.product}}</em></h2>
+                  <p>{{product.description}}</p>
+                  <p>Our {{product.product}} products include:</p>
+                  <ol>
+                      <li *ngFor="let item of product.items">{{item}}</li>
+                  </ol>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="left-image">
+                  <img [ngSrc]="product.image" [alt]="product.description" fill>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr class="rounded">
+</div>

@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
+import {BrowserModule, Meta} from '@angular/platform-browser';
+import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -22,6 +22,13 @@ import { ServicesListComponent } from './services-list/services-list.component';
 import { ContactHeaderComponent } from './contact-header/contact-header.component';
 import { ContactInformationComponent } from './contact-information/contact-information.component';
 import { MapComponent } from './map/map.component';
+import {NgOptimizedImage} from "@angular/common";
+import { ProductsComponent } from './products/products.component';
+import { LazyloadingDirective } from './lazyloading.directive';
+import {ToastrModule} from "ngx-toastr";
+import {ReactiveFormsModule} from "@angular/forms";
+import { ProductsHeaderComponent } from './products-header/products-header.component';
+import { ProductsListComponent } from './products-list/products-list.component';
 
 @NgModule({
   declarations: [
@@ -44,13 +51,23 @@ import { MapComponent } from './map/map.component';
     ServicesListComponent,
     ContactHeaderComponent,
     ContactInformationComponent,
-    MapComponent
+    MapComponent,
+    ProductsComponent,
+    LazyloadingDirective,
+    ProductsHeaderComponent,
+    ProductsListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgOptimizedImage,
+    BrowserAnimationsModule,
+    ToastrModule.forRoot(
+      {timeOut: 1000, positionClass: 'toast-bottom-right'}
+    ),
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [Meta],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

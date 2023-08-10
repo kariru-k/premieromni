@@ -1,0 +1,69 @@
+.fun-facts {
+  margin-top: 60px;
+  background-image: url(src/assets/images/single_service_01.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 140px 0;
+  color: #fff;
+}
+
+.fun-facts span {
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.fun-facts h2 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+
+.fun-facts em {
+  font-style: normal;
+  color: #00cfcc;
+}
+
+.fun-facts p {
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.fun-facts .left-content {
+  margin-right: 45px;
+}
+
+.count-area-content {
+  height: 200px;
+  text-align: center;
+  background-color: rgba(250,250,250,0.1);
+  padding: 25px 30px 35px 30px;
+  margin: 15px 0px;
+}
+
+.count-digit {
+  margin: 5px 0px;
+  color: #00cfcc;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.count-area-content {
+  content: "+";
+}
+
+.count-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.count-title {
+
+}

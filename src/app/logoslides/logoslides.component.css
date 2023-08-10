@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(250px - (124px * 16)));
+  }
+}
+
+.section-heading {
+  margin-top: 60px;
+}
+
+.logos {
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 60px 0;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 25s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 80px;
+  margin: 0 30px;
+}
+
+
+
+
