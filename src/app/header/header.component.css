@@ -23,7 +23,7 @@
 }
 
 .sub-header ul.left-info li a {
-  color: #fff;
+  color: #000000;
   font-size: 14px;
   font-weight: 600;
 }
@@ -45,7 +45,7 @@
 }
 
 .sub-header ul.right-icons li a {
-  color: #fff;
+  color: #000000;
   transition: all 0.3s;
 }
 

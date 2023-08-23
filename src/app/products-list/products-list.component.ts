@@ -10,7 +10,7 @@ export class ProductsListComponent {
 
   products: ProductData[] = [
     {
-      image: "assets/images/heating.jpg",
+      image: "assets/images/heating.webp",
       product: "Heating Systems",
       description: "We offer comprehensive heating solutions that encompass the supply, installation, and maintenance of various heating systems. " +
         "Our expertise covers a wide range of technologies and approaches to heating, including low-temperature heating systems, heat pumps, hydronic systems, heat exchangers, and more. We strive to provide efficient and effective heating solutions for both residential and commercial buildings, tailored to meet the unique needs of each customer.",
@@ -24,7 +24,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/ventilation.jpg",
+      image: "assets/images/ventilation.webp",
       product: "Ventilation Systems",
       description: "Our expertise covers a variety of ventilation technologies, including natural ventilation, hybrid ventilation, and mechanical ventilation." +
         "We work closely with our customers to design and install ventilation systems that provide optimal indoor air quality, thermal comfort, and energy efficiency." +
@@ -35,7 +35,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/air-conditioning.jpg",
+      image: "assets/images/air-conditioning.webp",
       product: "Air-Conditioning Units and Systems",
       description: "We offer a range of air conditioning solutions that are designed to provide optimal indoor air quality, thermal comfort, and energy efficiency." +
         "We understand that each building has unique air conditioning needs, and we work closely with our customers to design and install solutions that meet those needs.",
@@ -48,7 +48,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/cooling.jpg",
+      image: "assets/images/cooling.webp",
       product: "Cooling Facilities and Solutions",
       description: "\n" +
         "At our company, we are dedicated to delivering advanced cooling systems and customized solutions. We offer a comprehensive range of services, including design, installation, and maintenance, " +
@@ -64,7 +64,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/fire-sprinkler.jpg",
+      image: "assets/images/fire-sprinkler.webp",
       product: "Fire Safety and Suppression systems",
       description: "We offer to design, install, maintain and provide estimations on the following services related to Fire Safety Systems:\n",
       items: [
@@ -78,7 +78,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/electrical.jpg",
+      image: "assets/images/electrical.webp",
       product: "Electrical Systems and Solutions",
       description: "We offer cutting-edge electrical systems and solutions to cater to the diverse needs of our valued customers. Our dedicated team of experienced electricians and engineers work tirelessly to design, implement, and maintain residential, commercial, and industrial electrical setups.\n",
       items: [
@@ -93,7 +93,7 @@ export class ProductsListComponent {
       ]
     },
     {
-      image: "assets/images/stock3.jpg",
+      image: "assets/images/stock3.webp",
       product: "IT Physical Infrastructure and Software Solutions",
       description: "We offer a comprehensive range of services and technologies designed to support and optimize the physical components of an organization's IT operations. These solutions address the critical aspects of data centers, network facilities, and other IT-related infrastructure, ensuring efficiency, reliability, and scalability.",
       items: [

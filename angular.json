@@ -11,8 +11,11 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
+            "customWebpackConfig": {
+              "path": "src/custom-webpack.config.js"
+            },
             "outputPath": "dist/premieromni",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -23,7 +26,8 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/logo1.ico"
+              "src/logo1.ico",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.css",
@@ -37,7 +41,9 @@
               "src/assets/js/custom.js",
               "src/assets/vendor/jquery/jquery.min.js",
               "src/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"
-            ]
+            ],
+            "serviceWorker": true,
+            "ngswConfigPath": "ngsw-config.json"
           },
           "configurations": {
             "production": {
@@ -94,7 +100,8 @@
             "tsConfig": "tsconfig.spec.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "src/styles.css"

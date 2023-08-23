@@ -10,6 +10,7 @@ export class HomeComponent {
 
   constructor(private meta: Meta, private title: Title) {
     this.meta.addTags([
+      {name: 'title', content: 'Premier Omni Limited'},
       {name: 'description', content: "Home Page of Premier Omni"},
       {name: 'author', content: "Premier Omni Limited"},
       {name: 'keywords', content: "MEP, IT, Premier Omni, Mechanical, Electrical, Solutions, John Gitonga, Plumbing, HVAC"},

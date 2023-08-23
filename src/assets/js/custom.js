@@ -4,7 +4,7 @@ jQuery( document ).ready(function( $ ) {
 	"use strict";
 
 
-    
+
         $(function() {
             $( "#tabs" ).tabs();
         });
@@ -18,14 +18,14 @@ jQuery( document ).ready(function( $ ) {
             setTimeout(function(){
                 $("#preloader").css("visibility", "hidden").fadeOut();
             }, 300);
-        });       
+        });
 
         $(window).scroll(function() {
-          var scroll = $(window).scrollTop();
-          var box = $('.header-text').height();
-          var header = $('header').height();
+            const scroll = $(window).scrollTop();
+            const box = $('.header-text').height();
+            const header = $('header').height();
 
-          if (scroll >= box - header) {
+            if (scroll >= box - header) {
             $("header").addClass("background-header");
           } else {
             $("header").removeClass("background-header");
@@ -104,12 +104,12 @@ jQuery( document ).ready(function( $ ) {
             cssEase:'linear',
            // fade:true,
             draggable:false,
-            prevArrow:'<button class="PrevArrow"></button>',
-            nextArrow:'<button class="NextArrow"></button>', 
+            prevArrow:'<button class="PrevArrow" aria-label="Previous Slide"></button>',
+            nextArrow:'<button class="NextArrow" aria-label="Previous Slide"></button>',
         });
 
         function visible(partial) {
-            var $t = partial,
+            const $t = partial,
                 $w = jQuery(window),
                 viewTop = $w.scrollTop(),
                 viewBottom = viewTop + $w.height(),
@@ -128,10 +128,10 @@ jQuery( document ).ready(function( $ ) {
             {
               if($('.count-digit').hasClass('counter-loaded')) return;
               $('.count-digit').addClass('counter-loaded');
-              
+
         $('.count-digit').each(function () {
-          var $this = $(this);
-          jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
+            const $this = $(this);
+            jQuery({ Counter: 0 }).animate({ Counter: $this.text() }, {
             duration: 3000,
             easing: 'swing',
             step: function () {
@@ -141,5 +141,5 @@ jQuery( document ).ready(function( $ ) {
         });
         }
     })
- 
+
 });

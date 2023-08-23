@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import {BrowserModule, Meta} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { AppComponent } from './app.component';
@@ -12,7 +12,6 @@ import { BannerComponent } from './banner/banner.component';
 import { HomeServicesComponent } from './home-services/home-services.component';
 import { FunFactsComponent } from './fun-facts/fun-facts.component';
 import { ExtrainfoComponent } from './extrainfo/extrainfo.component';
-import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { CallbackComponent } from './callback/callback.component';
 import { FooterComponent } from './footer/footer.component';
 import { LogoslidesComponent } from './logoslides/logoslides.component';
@@ -29,6 +28,8 @@ import {ToastrModule} from "ngx-toastr";
 import {ReactiveFormsModule} from "@angular/forms";
 import { ProductsHeaderComponent } from './products-header/products-header.component';
 import { ProductsListComponent } from './products-list/products-list.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import {LayoutModule} from "@angular/cdk/layout";
 
 @NgModule({
   declarations: [
@@ -42,7 +43,6 @@ import { ProductsListComponent } from './products-list/products-list.component';
     HomeServicesComponent,
     FunFactsComponent,
     ExtrainfoComponent,
-    TestimonialsComponent,
     CallbackComponent,
     FooterComponent,
     LogoslidesComponent,
@@ -61,11 +61,18 @@ import { ProductsListComponent } from './products-list/products-list.component';
     BrowserModule,
     AppRoutingModule,
     NgOptimizedImage,
+    LayoutModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(
       {timeOut: 1000, positionClass: 'toast-bottom-right'}
     ),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [Meta],
   bootstrap: [AppComponent]

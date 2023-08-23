@@ -1294,7 +1294,7 @@
       _proto._getParent = function _getParent() {
         var _this3 = this;
 
-        var parent = null;
+        var parent;
 
         if (Util.isElement(this._config.parent)) {
           parent = this._config.parent; // It's a jQuery object

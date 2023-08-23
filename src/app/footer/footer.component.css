@@ -33,7 +33,7 @@ footer ul.social-icons li {
 }
 
 footer ul.social-icons li:last-child {
-  margin-right: 0px;
+  margin-right: 0;
 }
 
 footer ul.social-icons li a {
@@ -57,7 +57,7 @@ footer ul.menu-list li {
 }
 
 footer ul.menu-list li:last-child {
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 footer ul.menu-list li a {
@@ -75,7 +75,7 @@ footer .contact-form input {
   height: 40px;
   line-height: 40px;
   display: inline-block;
-  padding: 0px 15px;
+  padding: 0 15px;
   color: #aaa!important;
   background-color: #343434;
   font-size: 13px;

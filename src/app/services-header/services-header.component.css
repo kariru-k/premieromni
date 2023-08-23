@@ -1,9 +1,9 @@
 .page-heading {
   text-align: center;
-  background-image: url(src/assets/images/about-image.jpg);
+  background-image: url(src/assets/images/about-image.webp);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 230px 0px 150px 0px;
+  padding: 230px 0 150px 0;
   color: #fff;
 }

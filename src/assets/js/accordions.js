@@ -13111,7 +13111,7 @@ var slider = $.widget( "ui.slider", $.ui.mouse, {
 					value: newVal,
 					values: newValues
 				} );
-				otherVal = this.values( index ? 0 : 1 );
+				this.values(index ? 0 : 1);
 				if ( allowed !== false ) {
 					this.values( index, newVal );
 				}

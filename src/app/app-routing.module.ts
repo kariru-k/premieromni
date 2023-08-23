@@ -7,15 +7,38 @@ import {ContactComponent} from "./contact/contact.component";
 import {ProductsComponent} from "./products/products.component";
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent},
-  { path: 'products', component: ProductsComponent},
-  { path: 'services', component: ServicesComponent},
-  { path: 'contact', component: ContactComponent}
+  { path: '',
+    pathMatch: 'full',
+    component: HomeComponent,
+  },
+  { path: 'about',
+    pathMatch: 'full',
+    component: AboutComponent,
+  },
+  {
+    path: 'products',
+    pathMatch: 'full',
+    component: ProductsComponent,
+  },
+  {
+    path: 'services',
+    pathMatch: 'full',
+    component: ServicesComponent,
+  },
+  {
+    path: 'contact',
+    pathMatch: 'full',
+    component: ContactComponent,
+  }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: "enabled", preloadingStrategy: PreloadAllModules})],
+  imports: [
+    RouterModule.forRoot(routes, {
+      scrollPositionRestoration: "enabled",
+      preloadingStrategy: PreloadAllModules,
+    })
+  ],
   exports: [RouterModule],
   providers: []
 })

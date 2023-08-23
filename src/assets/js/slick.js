@@ -2801,7 +2801,7 @@
         var _ = this,
             centerOffset;
 
-        centerOffset = Math.floor(_.options.slidesToShow / 2);
+        Math.floor(_.options.slidesToShow / 2);
 
         if ( _.options.arrows === true &&
             _.slideCount > _.options.slidesToShow &&
